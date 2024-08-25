@@ -1,0 +1,25 @@
+To convert the given code to create a Box Plot graph using Matplotlib, you need to modify the code as follows:
+
+
+import matplotlib.pyplot as plt
+
+# Sample data for the x and y coordinates of the bar graph
+x = [1, 2, 3, 4, 5]
+y = [2, 4, 6, 8, 10]
+
+# Sample data for the box plot
+data = [x, y]
+
+# Create a box plot
+plt.boxplot(data)
+
+# Add labels and a title
+plt.xlabel('X-axis')
+plt.ylabel('Y-axis')
+plt.title('Box Plot')
+
+# Show the plot
+plt.show()
+
+
+In this code, we create a list `data` that contains the values of `x` and `y` from the original code. Then, we use `plt.boxplot(data)` to create the box plot. The `plt.xlabel`, `plt.ylabel`, and `plt.title` functions are used to add labels and a title to the plot. Finally, `plt.show()` displays the plot.

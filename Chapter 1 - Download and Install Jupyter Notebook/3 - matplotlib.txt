@@ -1,0 +1,15 @@
+To install Matplotlib, you can use the following command depending on your Python package manager:
+
+If you're using pip:
+
+pip install matplotlib
+
+
+If you're using Anaconda:
+
+conda install matplotlib
+
+
+Both of these commands will download and install Matplotlib, along with its dependencies, into your Python environment. Make sure you have a working internet connection before executing the command.
+
+Note: If you're using a virtual environment, activate the environment before running the installation command.
